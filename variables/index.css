@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  background: linear-gradient(rgba(165, 170, 233, 0.8), #8c9af6);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", serif;
+}
+
+.card {
+  background: #c8deff;
+  max-width: 280px;
+  padding: 20px;
+  line-height: 24px;
+  margin: 4rem;
+  position: relative;
+}
+
+.img {
+  width: 70px;
+  height: 70px; /* Correction */
+  border-radius: 100%;
+  border: 5px solid white;
+  position: absolute;
+  right: -30px;
+  bottom: 110px;
+}
+
+.img-one {
+  background: url("https://media.istockphoto.com/id/2159582042/photo/assorted-christmas-cookies-on-festive-table.jpg?s=1024x1024&w=is&k=20&c=TPdA6DFL7fFBwHukYHaC2A7e3vRt90mSbfsJDLUmMD4=") no-repeat center/cover;
+}
+
+.img-two {
+  background: url("https://cdn.pixabay.com/photo/2021/11/17/13/48/star-6803666_1280.jpg") no-repeat center/cover;
+}
+
+.img-thrid {
+  background: url("https://cdn.pixabay.com/photo/2021/12/10/13/59/star-6860582_1280.jpg") no-repeat center/cover;
+}
+
+.img-four {
+  background: url("https://cdn.pixabay.com/photo/2018/11/09/19/57/christmas-3805334_960_720.jpg") no-repeat center/cover;
+}/*# sourceMappingURL=index.css.map */

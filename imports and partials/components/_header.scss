@@ -1,0 +1,36 @@
+//header area
+
+main{
+    background: url("https://cdn.pixabay.com/photo/2021/12/10/13/59/star-6860582_1280.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+
+       h1{
+        font-size: 3rem;
+        color: wheat;
+       }
+
+       p{
+        min-width: 600px;
+        margin: 10px;
+        color: white;
+       }
+       
+       button{
+        background: transparent;
+        border: none;
+        background: #fff;
+        padding: 10px 20px;
+        cursor: pointer;
+       }
+}
+
