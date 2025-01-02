@@ -1,0 +1,101 @@
+.selector{
+    padding: max(10px, 50px,20px,60px,2px);
+    padding: min(10px, 50px,20px,60px,2px);
+    padding: random();
+    padding: random(10);
+    padding: unit(20em);
+    padding: unitless(20);
+    padding: unitless(20em);
+
+   
+
+
+}
+
+ // string function
+ .selector{
+    font-family: quote(roboto);
+    font-family: quote(arial);
+    font-family: quote("20");
+    font-family: unquote("arial");
+    font-family: to-upper-case("imen");
+    font-family: to-lower-case("IMEN");
+    font-family: str-length("imen");
+    font-family: str-index("imen" ,"e");
+    font-family: str-insert("imen", "e" ,3);
+    font-family: unique-id();
+ }
+
+ //color functions
+
+ $initial-color:blue;
+ $initial-color1:crimson;
+
+ .container{
+    width: 600px;
+    height: 100px;
+    // background: $initial-color;
+    // background: darken($initial-color,35);
+    // background: lighten($initial-color,35);
+    // background: adjust-hue($initial-color,25);
+    background: mix($initial-color1, green,50);
+}
+
+
+
+/// ---- lists---------
+/// 
+$list:20px 10px 30px ;
+
+
+
+.selector{
+    padding: length($list);
+    padding: nth($list,3);
+    padding: set-nth($list,3, 2em);
+    padding: join((10px,20px,30px),(40px,50px,60px));
+    padding: join((10px,20px,30px),(40px,50px,60px),space);
+    padding:append($list,60px);
+}
+
+
+///----------- maps------------ /
+/// 
+$font-weights:(
+    "regular":400,
+    "medium":500,
+    "blod":700,
+);
+
+.selector{
+    font-weight: map-get($font-weights, "medium");
+    font-weight: map-keys($font-weights);
+    font-weight: map-values($font-weights);
+    font-weight: map-has-key($font-weights, "blod");
+}
+
+///----------- creating custom function ------------ /
+/// 
+$one:100px;
+$two:100px;
+
+
+@function add($numberone,$numbertwo) {
+    @return $numberone + $numbertwo;
+}
+
+section{
+    width: add(10,10 );
+}
+
+//-- exemple 2
+
+@function randomColor(){
+    @return rgb(random(255),random(255),random(255));
+}
+
+section{
+    width: 100px;
+    height: 100px;
+    background: randomColor();
+}

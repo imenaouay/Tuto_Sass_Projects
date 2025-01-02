@@ -1,0 +1,35 @@
+
+//simple
+$list: (10,20,30);
+
+@each $i in $list{
+    .selctor{
+        font-weight: $i;
+    }
+}
+
+$list: (normal,blod,10px),(emphasis,italic,15px);
+
+@each $name,$style,$size in $list {
+    .#{$name}{
+        font-weight: $style;
+        font-size: $size;
+    }
+}
+
+$colors:green,teal, yellowgreen,yellow;
+
+@each $color in $colors {
+    .#{$color}{
+        background: $color;
+    }
+}
+
+body{
+    display: flex;
+}
+
+div{
+    flex: 1 1 auto;
+    height: 100vh;
+}

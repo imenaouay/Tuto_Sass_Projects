@@ -1,0 +1,104 @@
+.box-1 {
+  width: 100px;
+  background: rgb(9, 83, 92);
+  margin: 1;
+  padding: 5px;
+}
+
+.box-2 {
+  width: 200px;
+  background: rgb(173, 149, 27);
+  margin: 2;
+  padding: 10px;
+}
+
+.box-3 {
+  width: 300px;
+  background: rgb(21, 248, 40);
+  margin: 3;
+  padding: 15px;
+}
+
+.box-4 {
+  width: 400px;
+  background: rgb(166, 206, 184);
+  margin: 4;
+  padding: 20px;
+}
+
+.box-5 {
+  width: 500px;
+  background: rgb(154, 242, 250);
+  margin: 5;
+  padding: 25px;
+}
+
+.box-6 {
+  width: 600px;
+  background: rgb(59, 212, 165);
+  margin: 6;
+  padding: 30px;
+}
+
+.box-7 {
+  width: 700px;
+  background: rgb(237, 61, 83);
+  margin: 7;
+  padding: 35px;
+}
+
+.box-8 {
+  width: 800px;
+  background: rgb(128, 122, 9);
+  margin: 8;
+  padding: 40px;
+}
+
+.box-9 {
+  width: 900px;
+  background: rgb(185, 245, 220);
+  margin: 9;
+  padding: 45px;
+}
+
+.box-10 {
+  width: 1000px;
+  background: rgb(240, 80, 153);
+  margin: 10;
+  padding: 50px;
+}
+
+.list-1 {
+  width: 100px;
+  background: #bb1133;
+  margin: 1;
+  padding: 10px;
+}
+
+.list-2 {
+  width: 200px;
+  background: #9b0e2a;
+  margin: 2;
+  padding: 20px;
+}
+
+.list-3 {
+  width: 300px;
+  background: #7a0b21;
+  margin: 3;
+  padding: 30px;
+}
+
+.list-4 {
+  width: 400px;
+  background: #590818;
+  margin: 4;
+  padding: 40px;
+}
+
+.list-5 {
+  width: 500px;
+  background: #38050f;
+  margin: 5;
+  padding: 50px;
+}/*# sourceMappingURL=style.css.map */
