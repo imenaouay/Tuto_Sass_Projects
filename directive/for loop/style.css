@@ -1,69 +1,69 @@
 .box-1 {
   width: 100px;
-  background: rgb(9, 83, 92);
+  background: rgb(22, 252, 169);
   margin: 1;
   padding: 5px;
 }
 
 .box-2 {
   width: 200px;
-  background: rgb(173, 149, 27);
+  background: rgb(8, 77, 195);
   margin: 2;
   padding: 10px;
 }
 
 .box-3 {
   width: 300px;
-  background: rgb(21, 248, 40);
+  background: rgb(47, 139, 77);
   margin: 3;
   padding: 15px;
 }
 
 .box-4 {
   width: 400px;
-  background: rgb(166, 206, 184);
+  background: rgb(106, 29, 61);
   margin: 4;
   padding: 20px;
 }
 
 .box-5 {
   width: 500px;
-  background: rgb(154, 242, 250);
+  background: rgb(231, 177, 202);
   margin: 5;
   padding: 25px;
 }
 
 .box-6 {
   width: 600px;
-  background: rgb(59, 212, 165);
+  background: rgb(210, 177, 34);
   margin: 6;
   padding: 30px;
 }
 
 .box-7 {
   width: 700px;
-  background: rgb(237, 61, 83);
+  background: rgb(52, 219, 197);
   margin: 7;
   padding: 35px;
 }
 
 .box-8 {
   width: 800px;
-  background: rgb(128, 122, 9);
+  background: rgb(219, 168, 126);
   margin: 8;
   padding: 40px;
 }
 
 .box-9 {
   width: 900px;
-  background: rgb(185, 245, 220);
+  background: rgb(146, 236, 28);
   margin: 9;
   padding: 45px;
 }
 
 .box-10 {
   width: 1000px;
-  background: rgb(240, 80, 153);
+  background: rgb(27, 151, 59);
   margin: 10;
   padding: 50px;
 }

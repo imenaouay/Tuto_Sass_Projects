@@ -1,0 +1,120 @@
+.projects {
+    .title {
+        margin-left: 50px;
+        margin-top: 8rem;
+        color: white;
+        font-size: 8rem;
+        font-family: $main-font;
+        font-weight: normal;
+        transform: translateY(-50px);
+
+        span {
+            background: $label-color;
+        }
+
+        @media (max-width: 1024px) {
+            margin-left: 30px;
+            font-size: 6rem;
+        }
+
+        @media (max-width: 768px) {
+            margin-left: 20px;
+            font-size: 4.5rem;
+        }
+
+        @media (max-width: 480px) {
+            margin-left: 10px;
+            font-size: 3rem;
+        }
+    }
+
+    .images-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 100%;
+            max-width: 280px;
+            height: auto;
+            margin: 30px 10px;
+        }
+    }
+
+    .img-one {
+        transform: translateY(200px);
+
+        @media (max-width: 768px) {
+            transform: translateY(100px);
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 480px) {
+            transform: translateY(50px);
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    .img-two {
+        transform: translateY(150px);
+
+        @media (max-width: 768px) {
+            transform: translateY(75px);
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 480px) {
+            transform: translateY(40px);
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    .img-three {
+        transform: translateY(100px);
+
+        @media (max-width: 768px) {
+            transform: translateY(50px);
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 480px) {
+            transform: translateY(20px);
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    @media (max-width: 680px) {
+        .img-one,
+        .img-two,
+        .img-three {
+            margin-bottom: 6rem;
+        }
+    }
+
+    h1 {
+        color: white;
+        font-size: 4rem;
+        font-family: $main-font;
+        font-weight: normal;
+        transform: translateY(180px);
+
+        @media (max-width: 768px) {
+            font-size: 3rem;
+            transform: translateY(120px);
+            text-align: center;
+        }
+
+        @media (max-width: 480px) {
+            font-size: 2rem;
+            transform: translateY(60px);
+            text-align: center;
+        }
+    }
+}
